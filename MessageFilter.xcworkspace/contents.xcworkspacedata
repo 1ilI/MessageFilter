@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <Group
+      location = "group:Rescore"
+      name = "Rescore">
+      <FileRef
+         location = "group:icon.png">
+      </FileRef>
+      <FileRef
+         location = "group:MessageFilter.psd">
+      </FileRef>
+   </Group>
+   <Group
+      location = "group:CreateMLModel"
+      name = "CreateMLModel">
+      <FileRef
+         location = "group:CreateMLModel.playground">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:MessageFilter/MessageFilter.xcodeproj">
+   </FileRef>
+</Workspace>
