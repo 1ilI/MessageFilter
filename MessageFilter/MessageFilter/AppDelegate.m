@@ -40,7 +40,9 @@
             }]];
             [alert addAction:[UIAlertAction actionWithTitle:@"取消" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
             }]];
-            [self.window.rootViewController presentViewController:alert animated:YES completion:nil];
+            
+            UIViewController *showVC = self.window.rootViewController.presentedViewController ? : self.window.rootViewController;
+            [showVC presentViewController:alert animated:YES completion:nil];
             return YES;
         }
     }

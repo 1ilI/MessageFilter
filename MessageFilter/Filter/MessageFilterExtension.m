@@ -54,9 +54,6 @@
 
 - (ILMessageFilterAction)offlineActionForQueryRequest:(ILMessageFilterQueryRequest *)queryRequest {
     // Replace with logic to perform offline check whether to filter first (if possible).
-    
-    [[NSUserDefaults standardUserDefaults] setObject:queryRequest.messageBody forKey:@"message"];
-    
     if ([FilterModel needFilter:queryRequest.messageBody]) {
         return ILMessageFilterActionFilter;
     }
