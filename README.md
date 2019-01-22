@@ -174,11 +174,14 @@ sentimentPredictor.predictedLabel(for: "经鉴定，您的资质良好，完善�
 <div align="center"> <img alt="qiao-code" src="https://raw.githubusercontent.com/1ilI/1ilI.github.io/master/resource/2018-12/qiao-code.png"/></div>
 
 ## 完成
-我大致实现了这些功能，[点此下载](https://codeload.github.com/1ilI/Y_PickerView/zip/master)
+我大致实现了这些功能，[点此下载](https://codeload.github.com/1ilI/MessageFilter/zip/master)
+
+`CreateMLModel` 文件夹里是训练模型的 playground <br/>
+`MessageFilter` 是 iOS 应用工程
 
 该工程没有包含我训练的模型，要想运行使用，<br/>
 **先把自己的 mlmodel 训练好并导入进去，然后就可以了**
 
-<div align="center"> <img alt="message-filter-demo" src="https://raw.githubusercontent.com/1ilI/1ilI.github.io/master/resource/2018-12/message-filter-demo.gif"/></div>
+<div align="center"> <img alt="message-filter-demo" src="message-filter-demo.gif"/></div>
 
 ## [查看更多](https://1ili.github.io/)
